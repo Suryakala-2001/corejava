@@ -7,11 +7,11 @@ public class Student extends Citizen {// extends super class
      private int rollno;
      private String collegeName;
      
-	public Student(int rollno, String collegeName) {
-		super();
-		this.rollno = rollno;
-		this.collegeName = collegeName;
-	}
+	//public Student(int rollno, String collegeName) {
+	//	super();
+	//	this.rollno = rollno;
+	//	this.collegeName = collegeName;
+	//}
 	
 	public Student(String name, long aadharno, String address, long phno) {
 		super(name, aadharno, address, phno);

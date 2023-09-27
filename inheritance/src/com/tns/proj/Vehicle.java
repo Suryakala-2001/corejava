@@ -1,5 +1,5 @@
 package com.tns.proj;
-
+//multilevel inheritance
 public class Vehicle {
 	private String name;
 	private long plno;

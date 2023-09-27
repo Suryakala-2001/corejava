@@ -1,5 +1,5 @@
 package com.tns.proj;
-
+//extends car class
 public class SportsCar extends Car{
 	private float speed;
 
@@ -7,6 +7,12 @@ public class SportsCar extends Car{
 		super();
 	}
 	
+
+	public SportsCar(int npassengers) {
+		super(npassengers);
+		// TODO Auto-generated constructor stub
+	}
+
 
 	public SportsCar(float speed) {
 		super();
@@ -28,9 +34,9 @@ public class SportsCar extends Car{
 		this.speed = speed;
 	}
 
-	@Override
-	public String toString() {
-		return "SportsCar [speed=" + speed + "]";
-	}
+	//@Override
+	//public String toString() {
+	//	return "SportsCar [speed=" + speed + "]";
+	//}
 	
 }

@@ -1,5 +1,5 @@
 package com.tns.proj;
-
+//extends vehicle class
 public class Car extends Vehicle {
         private int npassengers;
 
