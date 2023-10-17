@@ -1,4 +1,4 @@
-package TreadPrograms;
+package com.tns.TreadPrograms;
 
 public class ImplementableThread implements Runnable{
 	@Override

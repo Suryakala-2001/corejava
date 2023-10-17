@@ -1,4 +1,4 @@
-package TreadPrograms;
+package com.tns.TreadPrograms;
 
 public class CreatingThread extends Thread {
     public void run() {
